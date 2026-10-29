@@ -1,0 +1,23 @@
+{
+  "name": "pw_framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "smoke" : "npx playwright test --grep @smoke",
+    "regression" : "npx playwright test --grep @regression",
+    "api" : "npx playwright test --grep @api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@faker-js/faker": "^10.6.0",
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.4"
+  },
+  "dependencies": {
+    "csv-parser": "^3.2.1"
+  }
+}

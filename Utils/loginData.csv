@@ -1,0 +1,5 @@
+testCase,username,password,expectedResult
+TC001,Admin,admin123,success
+TC002,Admin,wrongpassword,failure
+TC003,wronguser,admin123,failure
+TC004,,,validation
